@@ -74,7 +74,7 @@
       </div>
    </div>
    <div>
-      <div id="visual"> 밥집 메인 이미지
+      <div id="visual"> <img alt="밥집메인이미지" src="images/bob_main.jpg" >
    </div>
    <div id="group">
       <p>1</p>

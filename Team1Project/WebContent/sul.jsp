@@ -74,7 +74,7 @@
       </div>
    </div>
    <div>
-      <div id="visual">
+      <div id="visual"><img alt="술집메인이미지" src="images/sul_main.jpg" >
    </div>
    <div id="group">
       <p>1</p>

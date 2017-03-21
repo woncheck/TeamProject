@@ -8,42 +8,42 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+
 <title> Login </title>
+<link rel="stylesheet" type="text/css" href="table.css">
 </head>
+
+
 <body>
- 
-    <%
-        // 현재 로그인된 아이디가 없다면 (= session에 저장된 id가 없다면)
-        if(session.getAttribute("id") == null) {
-            %>
-            <h1> 로그인 페이지 </h1> 
-            <br /> <form action="LOGIN_CHECK.jsp" method="post">
-            <br />
-            <br /> <input name="input_id" type="text">
-            <br />
-            <br /> <input name="input_pw" type="password"> <button> 로그인 </button>
-            <br /> </form>
-            <br /> <button onClick="location.href='JOIN.jsp'"> 회원가입 </button>
-            <%
-        } 
-        // 현재 로그인된 아이디가 있다면 (= session에 저장된 id가 있다면)
-        else {
-            out.print(session.getAttribute("id") + " 님 환영합니다");
-            %>
-            <h1> 로그인 페이지 </h1> 
-            <br /> <form action="LOGOUT.jsp" method="post">
-            <br />
-            <br /> <button> 로그아웃 </button>
-            <br />
-            <br /> </form>
-            <br /> <button onClick="location.href='CHANGEPROFILE.jsp'"> 개인정보 변경</button>
-            <%
-        }
-    %>
-    
- 
+	<center>
+		<form action="login_ok.jsp" method="post">
+			<table id="table_content" width="120px">
+				<tr>
+					<td width="20%" align="right">ID</td>
+					<td width="80%" align="left">
+						<input type="text" name="id" size="12">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="20%" align="right">PWD</td>
+					<td width="80%" align="left">
+						<input type="text" name="pwd" size="12">
+					</td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" align="right">
+						<input type="submit" value="로그인">
+					</td>
+				</tr>
+		
+				
+				
+			</table>
+		</form>
+	</center>
 </body>
 </html>
 
 
-출처: http://parkdex.tistory.com/145 [PARKDEX]
