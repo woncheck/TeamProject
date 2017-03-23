@@ -13,7 +13,7 @@
       height: 100px;
       background: #555;
       margin: 0
-      auto;  
+      auto; 
    }
    #header navigationBox{
       width: 600px;
@@ -34,6 +34,8 @@
       width: 960px;
       margin: 0;
       auto;
+      font-size: 2em;
+      text-decoration: none;
    }
    #group p{
       width: 319px;
@@ -42,6 +44,21 @@
       margin-right: 1px;
       float: left;
    }
+   
+   
+   #group p:NTH-CHILD(1):HOVER{
+   opacity: 0.4
+   }
+   
+   #group p:NTH-CHILD(2):HOVER{
+   opacity: 0.4
+   }
+   
+   #group p:NTH-CHILD(3):HOVER{
+   opacity: 0.4
+   }
+  
+
    #sideBanner{
       position: absolute;
       top: 100px;
@@ -58,6 +75,8 @@
       auto;
       clear: both;
    }
+
+   
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript" src="bob.jsp"></script>
@@ -65,20 +84,42 @@
 <script type="text/javascript" src="sul.jsp"></script>
 </head>
 <body>
-<table>
-<center>
    <div id="header">
-      <div id="navigationBox">navigationBox
+      <div id="navigationBox">
+     	 <a href="main.jsp"><img alt="로고" src="images/로고.jpg"></a>
+     	 <table width="600" height="20" align="right">
+      	<tr>
+	      	<td>홈</td>
+			<td>회원가입</td>
+			<td>공지사항</td>
+			<td>News</td>
+			<td>영화목록</td>
+			<td>영화예매</td>
+			<td>커뮤니티</td>
+			<td>마이페이지</td>
+		</tr>
+      </table>
       </div>
    </div>
+<center>
    <div>
-      <div id="visual">메인 이미지
+      <div id="visual"><img alt="메인이미지" src="images/임시메인.jpg"></div>
    </div>
    <div id="group">
-      <p><a href="cafe.jsp">까페</a></p>
-      <p><a href="bob.jsp">밥집</a></p>
-      <p><a href="sul.jsp">술집</a></p>
+      <p>
+        <a href="cafe.jsp"><img alt="카페메인이미지" src="images/cafe.jpg">
+         </a>
+      </p>
+      <p>
+         <a href="bob.jsp"><img alt="밥집메인이미지" src="images/bob.jpg">
+         </a>
+      </p>
+      <p>
+          <a href="sul.jsp"><img alt="술집메인이미지" src="images/sul.jpg">
+         </a>
+      </p>
    </div>
+   
    <div id="sideBanner">메뉴
       <ul>
          <li>1</li>
@@ -86,8 +127,8 @@
          <li>3</li>
       </ul>
    </div>
+   
    <div id="footer">팀원소개, 기타등등</div>
   </center>
   
 </body>
-</html>
