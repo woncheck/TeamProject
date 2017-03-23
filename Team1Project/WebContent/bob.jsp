@@ -63,19 +63,36 @@
       auto;
       clear: both;
    }
+   
+   #cafe:HOVER{
+   background: #FFFB00;
+   }
+   
+   #sul:HOVER{
+   	  background: #FF0000;
+   }
+   
 </style>
 </head>
 <body>
 <center>
-<div id="headerbanner"><a href="cafe.jsp">카페 </a> &nbsp;| <a href="bob.jsp">밥집 </a>  &nbsp;| <a href="sul.jsp">술집 </a>
+	<div id="headerbanner">
+		<a href="cafe.jsp" id="cafe">카페 </a> &nbsp;|
+		<a href="bob.jsp" id="bob">밥집</a>  &nbsp;|
+		<a href="sul.jsp" id="sul">술집</a>
 	</div>
-   <div id="header"> 밥
-      <div id="navigationBox"> <a href="main.jsp">메인으로</a>
+   
+   <div id="header">
+      <div id="navigationBox"><a href="main.jsp">메인으로</a>
       </div>
    </div>
+   
    <div>
-      <div id="visual"> 밥집 메인 이미지
+      <div id="visual">
+      <a href="main.jsp"> <img alt="밥집메인이미지" src="images/cafe_main.jpg">
+      </div>
    </div>
+  
    <div id="group">
       <p>1</p>
       <p>2</p>

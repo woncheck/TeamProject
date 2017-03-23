@@ -103,8 +103,16 @@
    </div>
    
    <div id="group">
+   	<table>
+   		<tr>
+   			<td><a href="cafe.jsp"><img alt="까페메인이미지" src="images/1_1.png"></td>
+   			<td><a href="bob.jsp"><img alt="밥집메인이미지" src="images/2_1.png"></td>
+   			<td><a href="sul.jsp"><img alt="술집메인이미지" src="images/3_1.png"></td>
+   		</tr>
+   	</table>
+   
       <p>
-	  	<a href="cafe.jsp"><img id="cafeimg1" alt="까페메인이미지" src="images/1_1.png">
+	  	<a href="cafe.jsp"><img alt="까페메인이미지" src="images/1_1.png">
 	  	신촌 SIST 까페
       	</a>
       </p>
