@@ -4,120 +4,75 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<title>신촌 SIST녀석들</title>
 
-
-<style type="text/css">
-   #header {
-      width: 960px;
-      height: 100px;
-      background: #888;
-     
-    
-   }
-   #header navigationBox{
-      width: 600px;
-      height: 40px;
-      float: right;
-      margin-top: 30px;
-      margin-right: 20px;
-      background: #555;
-   }
-   #gnb{
- 	top:20px; 
- 	right:200px;  
-   }
-    #gnb li{
-    float:left;
-    }
-    
-   #visual{
-      width: 960px;
-      height: 450px	;
-      background: #ccc;
-      margin: 0;
-      background-size:cover;
-      transition:all 2s;
-    
-   }
- 
-   #group{
-      width: 960px;
-      margin: 0;
-      auto;
-   }
-   #group p{
-      width: 319px;
-      height: 300px;
-      background: #555;
-      margin-right: 1px;
-      float: left;
-   }
-   #sideBanner{
-      position: absolute;
-      top: 100px;
-      right: 100px;
-      width: 150px;
-      height: 250px;
-      background: #aaa;
-   }
- 
-   #footer{
-      width: 960px;
-      height: 80px;
-      background: #333;
-      margin: 0;
-      auto;
-      clear: both;
-   }
-</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript">
-$(function(){
-	$('#btn').click(function(){
-		window.open("login.jsp","login","width=300,height=200,toolbar=no,statusbar=no,scrollbars=no");
-	});
-});
-</script>
+<script type="text/javascript" src="cafe.jsp"></script>
+<script type="text/javascript" src="bob.jsp"></script>   
+<script type="text/javascript" src="sul.jsp"></script>
+
+<style>
+html{overflow:scroll; overflow-x:auto}
+
+body{margin:0px; padding:0px; font-size:11px;line-height:140%; background-color:#ffffff; color:#ffffff}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-weight:normal}
+
+p{margin:0; padding:0;}
+
+ol, ul, dl, li, dt, dd{display:block; margin:0; padding:0; list-style:none}
+
+textarea{margin:0; padding:0; border:none; resize:none}
+
+a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=true); color:#fff;}
+
+@CHARSET "EUC-KR";
+
+.top_positionR{ width:990px; height:0; margin:0 auto; position:relative; min-width:300px; }
+a.top{ display:block; position: fixed; right:50%; bottom:10px; z-index:5; margin-right:-545px; background:url(/images/sub/quick.jpg) left top no-repeat; width:42px; height:42px; }
+a.top:hover{ background:url(/images/sub/quick_over.jpg) left top no-repeat; }
+
+#copyright{ width:100%; min-height:50px; padding:5px 0 0 0; line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family: Arial, Helvetica, sans-serif; }
+#copoyright b{ color:#fff;}
+
+#gogimatcha_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:790px;}
+#gogimatcha_top{ width:100%; height:470px; background:url(images/gogimatcha_topBg.jpg) center no-repeat;}
+.gogimatcha_logo{ position:absolute; left:50%; top:40px; margin-left:-360px; width:720px; height:160px; z-index:5;}
+.gogimatcha_logo img{ width:100%; height:100%;}
+#gogimatcha_cont{ width:993px; padding-right:1px; height:0; margin:0 auto; position:relative;}
+#gogimatcha_cont ul{ position:absolute; left:0; top:-225px; z-index:10;}
+#gogimatcha_cont ul li{ float:left; margin-left:1px; width:330px; height:545px;}
+#gogimatcha_cont ul li a{ display:block; height:545px;}
+#gogimatcha_cont ul li a:hover{ text-decoration:none;}
+#gogimatcha_cont ul li img{ width:100%;}
+#gogimatcha_cont ul li a:hover img{ filter:alpha(opacity=50); opacity:.50;}
+#gogimatcha_cont ul li.dusseldorf{ background-color:#ff4848;}
+#gogimatcha_cont ul li.koln{ background-color: #f5c041;}
+#gogimatcha_cont ul li.heidelberg{ background-color: #4372fe;}
+#gogimatcha_cont ul li span{ display:block; color:#fff; font-family:Arial, Helvetica, sans-serif;}
+#gogimatcha_cont ul li .place{ font-size:43px; letter-spacing:-1px; font-weight:bold; line-height:50px; margin:50px 5px 0px 18px; height:127px; text-transform:uppercase;}
+#gogimatcha_cont ul li .address{ font-size:19px; font-weight:bold; line-height:25px; margin:0px 5px 0px 18px; width:187px;}
+#gogimatcha_cont ul li .address em{ display:none;}
+#gogimatcha_cont ul li .tel{ font-size:16px; font-weight:bold; line-height:30px; margin:10px 5px 0px 18px;}
+#gogimatcha_cont ul li:hover{ background-color: #000;}
+
+</style>
 </head>
 <body>
-<table>
-<center>
-   <div id="header">  
-   
-  	
-      <div id="navigationBox">
-      <h1></h1>
-      <ul id="gnb">
-      		<li><a href="#">로그인</a></li>
-      		<li><a href="#">회원가입</a></li>
-      		<li><a href="#">인기</a></li>
-      		<li><a href="#">검색</a></li>
-    	</ul>
-     </div>
-   </div>
-   <div id="submain"></div>
    <div>
-      <div id="visual">메인 이미지
-      	<h1 ali>logo</h1>
-      		
+      <div id="gogimatcha_wrap">
+         <div id="gogimatcha_top">
+            <div class="gogimatcha_logo"><a href="main.jsp"><img src="images/gogimatcha_logo.png" alt="GogiMatcha"></a></div>         
+         </div>
+         <div id="gogimatcha_cont">
+            <ul>
+               <li class="dusseldorf"><a href="cafe.jsp"><img src="images/cafe.jpg" width="100%" alt="dusseldorf" /><span class="place">카페</span><span class="address">주소 샤라랄랄라랄랄랄  <em> / </em>우편번호 및 장소</span><span class="tel">TEL : 0211-8632-1161</span></a></li>
+               <li class="koln"><a href="bob.jsp"><img src="images/bob.jpg" width="100%" alt="koln" /><span class="place">밥집</span><span class="address">주소 <em> / </em>우편번호 및 장소</span><span class="tel">TEL : 0211-8632-1161</span></a></li>
+               <li class="heidelberg" style="text-align:left;"><a href="sul.jsp"><img src="images/sul.jpg" width="100%" alt="heidelberg" /><span class="place">밥집</span><span class="address">주소 <em> / </em>우편번호 및 장소</span><span class="tel">TEL : 0211-8632-1161</span></a></li>
+            </ul>
+         </div>
       </div>
-   <div id="group">
-      <p><a href="cafe.jsp">까페</a></p>
-      <p><a href="bob.jsp">밥집</a></p>
-      <p><a href="sul.jsp">술집</a></p>
-   </div>
-   <div id="sideBanner" width="100" >메뉴
-    
-      <li><a href="#"><input type="button" value="로그인" id="btn"></a></li>
-      <li><a href="#"><a href="newmember.jsp">회원가입</a></a></li>
- 	  <li><a href="#">인기</a></li>
-         
-    </div>
-    
-   </div>
-   <div id="footer">팀원소개, 기타등등</div>
-  </center>
-  
+      <div id="copyright">copyright(c) <b>신촌 SIST녀석들</b> ALL RIGHT RESERVED</div>
+   </div>   
 </body>
 </html>

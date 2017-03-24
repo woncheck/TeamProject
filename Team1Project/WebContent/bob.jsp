@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>bab</title>
+<title>bob</title>
 <style type="text/css">
 #headerbanner {
       width: 960px;
       height: 20px;
-      background: blue;
+      background: aqua;
       margin: 0
       auto;
    }
@@ -47,14 +47,7 @@
       margin-right: 1px;
       float: left;
    }
-   #sideBanner{
-      position: absolute;
-      top: 100px;
-      right: 0px;
-      width: 100px;
-      height: 400px;
-      background: #aaa;
-   }
+
    #footer{
       width: 960px;
       height: 80px;
@@ -63,20 +56,37 @@
       auto;
       clear: both;
    }
+   
+   #cafe:HOVER{
+   background: #FFFB00;
+   }
+   
+   #sul:HOVER{
+        background: #FF0000;
+   }
+   
 </style>
 </head>
 <body>
 <center>
-<div id="headerbanner"><a href="cafe.jsp">카페 </a> &nbsp;| <a href="bob.jsp">밥집 </a>  &nbsp;| <a href="sul.jsp">술집 </a>
-	</div>
-   <div id="header"> 밥
-      <div id="navigationBox"> <a href="main.jsp">메인으로</a>
+   <div id="headerbanner">
+      <a href="cafe.jsp" id="cafe">카페</a> &nbsp;|
+      <a href="bob.jsp" id="bob">밥집</a>&nbsp;|&nbsp;
+      <a href="sul.jsp" id="sul">술집</a>
+   </div>
+   
+   <div id="header">
+      <div id="navigationBox"><a href="main.jsp">메인으로</a>
       </div>
    </div>
+   
    <div>
-      <div id="visual"> <img alt="밥집메인이미지" src="images/bob_main.jpg" >
+      <div id="visual">
+      <a href="main.jsp"> <img alt="밥집메인이미지" src="images/bob_main.jpg">
+      </div>
    </div>
-   <div id="group">
+  
+   <div id="group" align="center">
       <p>1</p>
       <p>2</p>
       <p>3</p>
@@ -87,13 +97,7 @@
       <p>8</p>
       <p>9</p>
    </div>
-   <div id="sideBanner">  
-   		<ul>
-         <li>1</li>
-         <li>2</li>
-         <li>3</li>
-      </ul>
-   </div>
+ 
    <div id="footer">개발자... 기타등등</div>
    </center>
 </body>

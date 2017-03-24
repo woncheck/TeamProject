@@ -1,0 +1,363 @@
+/*======================================================================
+	추가속성(필요시 사용)
+======================================================================*/
+@media only screen and (min-width: px) {} /* 미디어쿼리 사용시 최소사이즈 수정하면 됩니다 */
+
+/* 페이지 드래그 시 배경색상 및 글씨색상 변경! 반드시 css 가장 아래에 적어줍니다 */
+*::-moz-selection{background-color:#fff;color:#222;;}
+*::selection{background-color:#fff;color:#222;;}
+
+
+/** 본 작업시 common CSS에 적힌 주석 및 쓰지않는 font-family는 지워주세요 **/
+
+/****	main	*****/
+.main{ width:100%:}
+#mainBackground { position:fixed; width:100%; height:100%; overflow:hidden; z-index:1; }
+#main_backGround { width:100%; height:100%; }
+#main_backGround .sliderkit-panel { top:0; left:0; width:100%; height:100%; }
+#main_backGround .sliderkit-panel img{ height:100%; width:100%;}
+
+#m_logo{ width:828px; height:423px; position:absolute; left:50%; top:131px; margin-left:-414px; z-index:3; }
+#mobile_logo{ display:none;}
+#m_copyrigth{ width:100%; min-height:50px; position:fixed; bottom:0; left:0; z-index:2; line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family:Arial, Helvetica, sans-serif;}
+#m_copyrigth b{ color:#fff;}
+/****	//main		*/
+
+/****	sub	*****/
+.dussel_tel{ display:none;}
+.koln_tel{ display:none;}
+.heidelberg_tel{display:none;}
+
+.top_positionR{ width:990px; height:0; margin:0 auto; position:relative; min-width:300px; }
+a.top{ display:block; position: fixed; right:50%; bottom:10px; z-index:5; margin-right:-545px; background:url(/images/sub/quick.jpg) left top no-repeat; width:42px; height:42px;}
+a.top:hover{ background:url(/images/sub/quick_over.jpg) left top no-repeat;}
+#copyrigth{ width:100%; min-height:50px; padding:5px 0 0 0;line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family:Arial, Helvetica, sans-serif;}
+#copyrigth b{ color:#fff;}
+
+
+#sub_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:790px;}
+#sub_top{ width:100%; height:320px; background:url(/images/main/gogimatcha_topBg.jpg) center no-repeat;}
+.sub_logo{ position:absolute; left:50%; top:70px; margin-left:-360px; width:720px; height:160px; z-index:5;}
+.sub_logo img{ width:100%; height:100%;}
+.sub_title{ background:url(/images/sub/line1.png) left top no-repeat; min-height:80px; position:absolute; left:50%; top:240px; margin-left:-365px;}
+.sub_title .rightBg{ background:url(/images/sub/line2.png) right top no-repeat; min-height:80px; padding:0 30px; width:670px; text-align:center;}
+.sub_title .rightBg h2{ line-height:68px; font-size:45px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:-1px; color:#fff; text-transform:uppercase;}
+.sub_adr{min-height:80px; position:absolute; left:50%; top:298px; margin-left:-365px; padding:0 30px; width:670px; text-align:center; line-height:26px; font-size:25px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:-1px; color:#fff;}
+
+.topLink{ margin:0 auto; width: 543px; height:30px; padding-left:1px; background:url(/images/sub/border.png) left top repeat-y;}
+.topLink a{ text-transform:uppercase; padding-right:1px; background:url(/images/sub/border.png) right top repeat-y; color:#212121; font-size:12px; font-family:Arial, Helvetica, sans-serif; display: inline-block; width:180px; line-height:30px; height:30px; text-align:center;}
+.topLink a:hover{ color:#fff; text-decoration:none;}
+.topLink a.dussel:hover{ background-color:#ff4848;}
+.topLink a.koln:hover{ background-color:#f5c041;}
+.topLink a.heidel:hover{background-color:#4372fe; }
+.topLink a.d_over{ color:#fff; background:#ff4848 url(/images/sub/border.png) right top repeat-y;}
+.topLink a.k_over{ color:#fff; background:#f5c041 url(/images/sub/border.png) right top repeat-y;}
+.topLink a.h_over{ color:#fff; background:#4372fe url(/images/sub/border.png) right top repeat-y;}
+
+.sub_menu{ margin:0 auto; width:990px;}
+.sub_menu ul{ overflow:hidden;}
+.sub_menu ul li{ float:left; width:50%;}
+.sub_menu ul li a{ background-color:#181818; font-size:15px; font-weight:bold; height:55px; color:#ececec; font-family:Arial, Helvetica, sans-serif; line-height:55px; text-align:center; display:block; width:100%; text-transform:uppercase;}
+.sub_menu ul li a:hover{ text-decoration:none; color:#fff;}
+.sub_menu ul.dussel_nav li a:hover{ background-color:#ff4848;}
+.sub_menu ul.dussel_nav li a.over{background-color:#ff4848; color:#fff;}
+/****	//sub		*/
+
+/****	sub_gogimatcha	*****/
+#gogimatcha_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:790px;}
+#gogimatcha_top{ width:100%; height:470px; background:url(/images/main/gogimatcha_topBg.jpg) center no-repeat;}
+.gogimatcha_logo{ position:absolute; left:50%; top:40px; margin-left:-360px; width:720px; height:160px; z-index:5;}
+.gogimatcha_logo img{ width:100%; height:100%;}
+#gogimatcha_cont{ width:993px; padding-right:1px; height:0; margin:0 auto; position:relative;}
+#gogimatcha_cont ul{ position:absolute; left:0; top:-225px; z-index:10;}
+#gogimatcha_cont ul li{ float:left; margin-left:1px; width:330px; height:545px;}
+#gogimatcha_cont ul li a{ display:block; height:545px;}
+#gogimatcha_cont ul li a:hover{ text-decoration:none;}
+#gogimatcha_cont ul li img{ width:100%;}
+#gogimatcha_cont ul li a:hover img{ filter:alpha(opacity=50);  opacity:.50;}
+#gogimatcha_cont ul li.dusseldorf{ background-color:#ff4848;}
+#gogimatcha_cont ul li.koln{ background-color:#f5c041;}
+#gogimatcha_cont ul li.heidelberg{ background-color:#4372fe;}
+#gogimatcha_cont ul li span{ display:block; color:#fff; font-family:Arial, Helvetica, sans-serif;}
+#gogimatcha_cont ul li .place{ font-size:43px; letter-spacing:-1px; font-weight:bold; line-height:50px; margin:50px 5px 0px 18px; height:127px; text-transform:uppercase;}
+#gogimatcha_cont ul li .address{font-size:19px; font-weight:bold; line-height:25px; margin:0px 5px 0px 18px; width:187px;}
+#gogimatcha_cont ul li .address em{ display:none;}
+#gogimatcha_cont ul li .tel{font-size:16px; font-weight:bold; line-height:30px; margin:10px 5px 0px 18px;}
+#gogimatcha_cont ul li:hover{ background-color:#000;}
+/****	//sub_gogimatcha	*****/
+
+/****	dusseldorf			*****/
+.dusseldorf_top{ height:30px; background:#ff4848;}
+.dussel_company{ padding:50px 0; width:990px; margin:0 auto;}
+.dussel_company .kor{ padding:0 5px; line-height:25px; font-family:'NanumBarunGothic'; font-size:14px; color:#b5b4b4;}
+.dussel_company .kor b{ font-size:15px; color:#dedede; font-family:'NanumBarunGothicB'; font-weight:none;}
+.dussel_company .ger{ padding:15px 0; overflow:hidden;}
+.dussel_company .ger li{ float:left;}
+.dussel_company .ger li.ger_img1{ width:551px; height:373px; background:url(/images/dusseldorf/company1.jpg) center no-repeat;}
+.dussel_company .ger li.ger_txt{ margin-left:24px; width:415px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+.dussel_company .ger li.ger_txt b{  font-size:18px; color:#dedede; line-height:23px; font-weight:none;}
+.dussel_company .ger li.ger_img2{ width:989px; height:192px; margin-top:24px;}
+.dussel_company .eng{ padding:25px 5px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:19px; color:#a2a2a2;}
+
+h4.tit{ background:url(/images/sub/bullet.jpg) left center no-repeat; padding-left:23px; line-height:38px; color:#fefefe; font-size:30px; font-family:"Times New Roman", Times, serif;}
+p.stit{ padding-left:23px; line-height:25px; color:#fefefe; font-size:20px; font-family:"Times New Roman", Times, serif;}
+p.m_stit{ padding-left:20px; line-height:25px; color:#fefefe; font-size:18px; font-family:'NanumBarunGothic', 'ＭＳ Ｐゴシック'; font-weight:bold;}
+p.txt1{ padding:0 20px 20px 20px; line-height:18px; color:#b5b4b4; font-size:12px; font-family:'NanumBarunGothic';}
+.d_c_time{position:absolute; right:15px; top:-32px; line-height:32px; font-family:"Times New Roman"; font-size:21px; text-align:right; color:#fefefe; display:block;}
+.m_d_c_time{ display:none;}
+.positionR{ position:relative; width:100%; height:0; z-index:10;}
+.d_c_tel{ position:absolute; right:5px; top:-57px; line-height:32px; font-family:'NanumBarunGothic'; font-size:13px; text-align:right; color:#fefefe; display:block;}
+.d_c_tel b{ line-height:25px; display:block; font-size:21px;}
+.m_d_c_tel{ display:none;}
+
+.dussel_company .d_map{ padding:13px 0 30px 0; height:400px;}
+
+.table{ border-left:1px solid #5d5d5d; border-bottom:1px solid #5d5d5d; overflow:hidden;}
+.table ul{overflow:hidden;}
+.table li.t_kor{ width:25%;  float:left; }
+.table li.t_ger{ width:39%;  float:left; }
+.table li.t_eng{ width:36%;  float:left; }
+.table li li{border-top:1px solid #5d5d5d;}
+.table li ol li.dt{ background:#3f3f3f url(/images/sub/tableLine.jpg) right top repeat-y; text-align:center; line-height:18px; font-family:'NanumBarunGothic'; font-size:15px; color:#fff; padding:12px 0px; display:block;}
+.table li ol li.dd{ background: url(/images/sub/tableLine.jpg) right top repeat-y; line-height:18px; font-family:'NanumBarunGothic'; font-size:12px; color:#fff; padding:12px 8px; display:block; }
+
+.dussel_menu{ padding: 0; width:990px; margin:0 auto;}
+.dussel_menu .topmenu{ padding:37px 0 0 0; width:100%; min-height:65px; line-height:25px; text-align:center; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#949494;}
+.dussel_menu .topmenu a{ margin:0 12px; color:#949494; display:inline-block;}
+.dussel_menu .topmenu a:hover{ color:#fff;}
+
+.foodmenu{ padding-bottom:30px;}
+
+.list ul{ overflow:hidden;}
+.list ul li{ border:1px solid #515151; float:left; width:300px; min-height:100px; margin:15px 14px 12px 14px; box-shadow: 0 1px 2px rgba(0,0,0,.5); position:relative;}
+.list ul li span{ display:block;}
+.list ul li .price{ background:url(/images/sub/p_bg.png) center no-repeat; letter-spacing:-1px; padding:29px 5px 5px 5px; width:74px; height:50px; text-align:center; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-5px; bottom:143px;}
+.list ul li .img{ width:300px; height:231px;}
+.list ul li .txt{ padding:12px 5px 5px 10px; height:126px;}
+.list ul li .list_tit{ line-height:30px; min-height:37px; font-size:27px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#fff;}
+.list ul li .list_txt{ line-height:18px; font-size:15px; font-family:'NanumBarunGothic', 'ＭＳ Ｐゴシック';  color:#b5b4b4;}
+.list ul li .list_txt13{ line-height:18px; font-size:14px; letter-spacing:-1px; font-family:'NanumBarunGothic', 'ＭＳ Ｐゴシック';  color:#b5b4b4;}
+.list ul li .list_cont{ margin-top:13px; line-height:16px; font-size:13px; font-family: Arial, Helvetica, sans-serif; color:#706f6f;}
+.list ul li .list_cont em{ color:#999;}
+.list ul li .list_cont em strong{ color:#ededed;}
+.list ul li .list_cont_1{ margin-top:5px; line-height:15px; font-size:12px; font-family: Arial, Helvetica, sans-serif; color:#706f6f;}
+.list ul li .list_cont_350{ display:none;}
+.list ul li .txt_192{padding:12px 5px 5px 10px; height:175px}
+.list ul li b{ color:#ff4848; font-weight:normal;}
+/****	//dusseldorf			*****/
+/****	koln					*****/
+.koln_top{ height:30px; background:#f5c041;}
+#koln_top{ width:100%; height:320px; background:url(/images/koln/koln_top.jpg) center no-repeat;}
+.sub_menu ul.koln_nav li a:hover{ background-color:#f5c041;}
+.sub_menu ul.koln_nav li a.over{background-color:#f5c041; color:#fff;}
+.koln_company{ padding:50px 0; width:990px; margin:0 auto;}
+.koln_company .kor{ padding:0 5px; line-height:25px; font-family:'NanumBarunGothic'; font-size:14px; color:#b5b4b4;}
+.koln_company .kor b{ font-size:15px; color:#dedede; font-family:'NanumBarunGothicB'; font-weight:none;}
+.koln_company .ger{ padding:15px 0; overflow:hidden;}
+.koln_company .ger li{ float:left;}
+.koln_company .ger li.ger_img1{ width:414px; height:500px; background:url(/images/koln/company1.jpg) center no-repeat;}
+.koln_company .ger li.ger_txt{ margin-left:25px; width:550px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+.koln_company .ger li.ger_txt b{  font-size:18px; color:#dedede; line-height:23px; font-weight:none;}
+.koln_company .ger li.ger_img2{ width:550px; height:207px; margin:54px 0 0 25px;;}
+.koln_company .eng{ padding:25px 5px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:19px; color:#a2a2a2;}
+
+.koln_company .d_map{ padding:13px 0 30px 0; height:400px;}
+.list ul li .k_price{ background:url(/images/sub/pk_bg.png) center no-repeat; letter-spacing:-1px; padding:29px 5px 5px 5px; width:74px; height:50px; text-align:center; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-5px; bottom:143px;}
+/****	//koln					*****/
+/****	heidelberg					*****/
+.heidelberg_top{ height:30px; background:#4372fe;}
+#heidelberg_top{ width:100%; height:320px; background:url(/images/heidelberg/heidelberg_top.jpg) center no-repeat;}
+.sub_menu ul.heidelberg_nav li a:hover{ background-color:#4372fe;}
+.sub_menu ul.heidelberg_nav li a.over{background-color:#4372fe; color:#fff;}
+
+.heidelberg_company{ padding:50px 0; width:990px; margin:0 auto;}
+.heidelberg_company .ger1{ padding:0 5px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+.heidelberg_company .ger1 b{ font-size:18px; color:#dedede; line-height:23px; font-weight:none;}
+.heidelberg_company .ger2{ padding:15px 0; overflow:hidden;}
+.heidelberg_company .ger2 li{ float:left;}
+.heidelberg_company .ger2 li.ger_img1{ width:551px; height:373px; background:url(/images/heidelberg/company1.jpg) center no-repeat;}
+.heidelberg_company .ger2 li.ger_txt{ margin-left:20px; width:419px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+.heidelberg_company .ger2 li.ger_img2{ width:989px; height:262px; margin:14px 0 0 0px;}
+.heidelberg_company .eng{ padding:25px 5px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:19px; color:#a2a2a2;}
+
+.heidelberg_company .d_map{ padding:13px 0 30px 0; height:400px;}
+
+.heidelberg_menu{ padding: 0; width:990px; margin:0 auto;}
+.heidelberg_menu .topmenu{ padding:37px 0 0 0; width:100%; min-height:65px; line-height:25px; text-align:center; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#949494;}
+.heidelberg_menu .topmenu a{ margin:0 12px; color:#949494; display:inline-block;}
+.heidelberg_menu .topmenu a:hover{ color:#fff;}
+
+.hansang_img{ margin:16px 14px 0 14px;}
+.hansang_txt{ margin:10px 14px 0 14px; text-align:center; font-size:14px; font-family: Arial, Helvetica, sans-serif; color:#706f6f;}
+.list ul li.h_p3 { min-height:150px; }
+.h_p3 .list_tit{ margin-left:0;  padding:15px 0px 0px 10px;  }
+.list ul li.h_p3 .list_contw80{ margin-top:5px; line-height:16px; margin-left:0; padding:0px 0px 10px 10px; font-size:15px; width:205px; font-family: Arial, Helvetica, sans-serif; color:#d2d2d2;}
+.list ul li.h_p3 .h_price{ background:url(/images/sub/ph_bg.png) center no-repeat; letter-spacing:-1px; padding:29px 5px 5px 5px; width:74px; height:50px; text-align:center; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-5px; bottom:-5px;}
+/****	//heidelberg					*****/
+.list ul li .h_price{ background:url(/images/sub/ph_bg.png) center no-repeat; letter-spacing:-1px; padding:29px 5px 5px 5px; width:74px; height:50px; text-align:center; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-5px; bottom:143px;}
+@media only screen and (max-width: 990px) {
+.main{ max-width:800px;}
+
+#m_logo{ display:none;}
+#mobile_logo{ display:block; width:300px; height:299px; position:absolute; left:50%; top:10%; margin-left:-150px; z-index:3;}
+
+/****	sub_gogimatcha	*****/
+#gogimatcha_wrap{ max-width:1500px; min-width:300px; margin:0 auto; width:100%; min-height:650px;}
+#gogimatcha_top{ width:100%; height:293px; background:url(/images/main/gogimatcha_topBg.jpg) center no-repeat;}
+.gogimatcha_logo{ position:absolute; left:50%; top:15px; margin-left:-165px; width:330px; height:78px; z-index:5;}
+.gogimatcha_logo img{ width:100%; height:100%;}
+#gogimatcha_cont{ width:90%; height:0; margin:0 auto; position:relative;}
+#gogimatcha_cont ul{ position:absolute; left:0; top:-177px; z-index:10;}
+#gogimatcha_cont ul li{ float:left; width:100%; height:177px;}
+#gogimatcha_cont ul li img{ display:none;}
+#gogimatcha_cont ul li a{ display:block; width:100%; height:177px;}
+#gogimatcha_cont ul li a:hover{ text-decoration:none;}
+#gogimatcha_cont ul li.dusseldorf{ background-color:#ff4848;}
+#gogimatcha_cont ul li.koln{ background-color:#f5c041;}
+#gogimatcha_cont ul li.heidelberg{ background-color:#4372fe;}
+#gogimatcha_cont ul li span{ display:block; color:#fff; font-family:Arial, Helvetica, sans-serif;}
+#gogimatcha_cont ul li .place{ font-size:30px; letter-spacing:-1px; font-weight:bold; line-height:50px; margin:20px 5px 0px 18px; height:50px; text-transform:uppercase;}
+#gogimatcha_cont ul li .address{font-size:18px; font-weight:bold; letter-spacing:-1px; line-height:25px; margin:25px 5px 0px 18px; width:300px;}
+#gogimatcha_cont ul li .address em{ display:inline-block;}
+#gogimatcha_cont ul li .tel{font-size:13px; font-weight:bold; line-height:25px; margin:0px 5px 0px 18px;}
+#gogimatcha_cont ul li:hover{ background-color:#000;}
+/****	//sub_gogimatcha	*****/
+
+#sub_wrap{ max-width:1500px; margin:0 auto; width:100%;}
+#sub_top{ width:100%; height:150px; background:url(/images/main/gogimatcha_topBg.jpg) center no-repeat;}
+.sub_logo{  position:absolute; left:50%; top:45px; margin-left:-175px; width:350px; height:78px; z-index:5;}
+.sub_logo img{ width:100%; height:100%;}
+
+.topLink{ margin:0 auto; width:350px; height:30px; padding-left:1px; background:url(/images/sub/border.png) left top repeat-y;}
+.topLink a{ letter-spacing:-1px; text-transform:uppercase; padding-right:1px; background:url(/images/sub/border.png) right top repeat-y; color:#212121; font-size:12px; padding:0 13px; font-family:Arial, Helvetica, sans-serif; display: inline-block; width: auto; line-height:30px; height:30px; text-align:center;}
+
+.sub_title{ background:none; min-height:80px; position:absolute; left:50%; top:120px; margin-left:-150px;}
+.sub_title .rightBg h2 span{ display:none;}
+.sub_title .rightBg{ background:none; min-height:50px; padding:0px; width:90%; text-align:center;}
+.sub_title .rightBg h2{ line-height:50px; font-size:30px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:-1px; color:#fff; text-transform:uppercase;}
+.sub_adr{ display:none;}
+
+.sub_menu{ margin:0 auto; width:90%;}
+.sub_menu ul li a{ background-color:#181818; font-size:15px; font-weight:bold; height:40px; color:#ececec; font-family:Arial, Helvetica, sans-serif; line-height:40px; text-align:center; display:block; width:100%; text-transform:uppercase;}
+
+.top_positionR{ width:100%; height:0; position:relative; }
+a.top{ display:block; position:absolute; right:5%; bottom:-42px; margin:0; z-index:5; background:url(/images/sub/quick.jpg) left top no-repeat; width:42px; height:42px;}
+/****	dusseldorf			*****/
+.dussel_company{ padding:25px 0; width:90%; margin:0 auto;}
+.dussel_company .kor{ padding-left:0px; line-height:20px; font-family:'NanumBarunGothic'; font-size:14px; color:#b5b4b4;}
+.dussel_company .kor b{ font-size:14px; color:#dedede; font-family:'NanumBarunGothicB'; font-weight:none;}
+
+.dussel_company .ger{ padding:15px 0; overflow:hidden;}
+.dussel_company .ger li{ float:left;}
+.dussel_company .ger li.ger_img1{ max-width:551px; width:40%; height:373px; background:url(/images/dusseldorf/company1.jpg) center no-repeat;}
+.dussel_company .ger li.ger_txt{ margin-left:5%; width:55%; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+.dussel_company .ger li.ger_txt b{  font-size:18px; color:#dedede; line-height:23px; font-weight:none;}
+.dussel_company .ger li.ger_img2{ width:100%; height:auto; margin-top:24px;}
+
+.dussel_menu{ padding: 0 0 20px 0; width:90%; margin:0 auto; min-width:360px;}
+.dussel_menu .topmenu{ padding:37px 0 0 0; width:100%; min-height:65px; line-height:25px; text-align:center; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#949494;}
+/****	//dusseldorf			*****/
+/****	koln					*****/
+#koln_top{ width:100%; height:150px; background:url(/images/koln/koln_top.jpg) center no-repeat;}
+.koln_company{ padding:25px 0; width:90%; margin:0 auto;}
+.koln_company .kor{  padding-left:0px; line-height:20px; font-family:'NanumBarunGothic'; font-size:14px; color:#b5b4b4;}
+.koln_company .kor b{ font-size:14px; color:#dedede; font-family:'NanumBarunGothicB'; font-weight:none;}
+.koln_company .ger{ padding:15px 0; overflow:hidden;}
+.koln_company .ger li{ float:left;}
+.koln_company .ger li.ger_img1{ width:40%; height:500px; background:url(/images/koln/company1.jpg) center no-repeat;}
+.koln_company .ger li.ger_txt{ margin-left:5%; width:55%; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+.koln_company .ger li.ger_txt b{  font-size:18px; color:#dedede; line-height:23px; font-weight:none;}
+.koln_company .ger li.ger_img2{ width:55%; height:auto; margin:30px 0 0 5%;}
+.koln_company .eng{ padding:25px 5px; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:19px; color:#a2a2a2;}
+
+.koln_menu{ padding: 0 0 20px 0; width:90%; margin:0 auto; min-width:360px;}
+.koln_menu .topmenu{ padding:37px 0 0 0; width:100%; min-height:65px; line-height:25px; text-align:center; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#949494;}
+/****	//koln					*****/
+/****	heidelberg					*****/
+
+.heidelberg_menu{ padding: 0 0 20px 0; width:90%; margin:0 auto; min-width:360px;}
+.heidelberg_menu .topmenu{ padding:37px 0 0 0; width:100%; min-height:65px; line-height:25px; text-align:center; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#949494;}
+
+#heidelberg_top{ width:100%; height:150px;}
+.heidelberg_company{ padding:25px 0; width:90%; margin:0 auto;}
+.heidelberg_company .ger1{ padding:0; }
+.heidelberg_company .ger2 li.ger_img1{ width:40%; height:373px;}
+.heidelberg_company .ger2 li.ger_txt{ margin-left:4%; width:56%;}
+.heidelberg_company .ger2 li.ger_img2{ width:100%; height:auto; margin:14px 0 0 0px;}
+
+/****	//heidelberg					*****/
+}
+@media only screen and (max-width: 760px) {
+#copyrigth{ width:100%; min-height:50px; padding:5px 0 55px 0;line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family:Arial, Helvetica, sans-serif;}
+	
+.dussel_tel{ width:100%; height:45px;  position:fixed; left:0; bottom:0; display:block; z-index:50;}
+.dussel_tel a{ display:block;  background-color:#ff4848; color:#fff; font-size:17px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:45px;}
+.dussel_tel a:hover{ text-decoration:none;}
+
+.koln_tel{ width:100%; height:45px;  position:fixed; left:0; bottom:0; display:block; z-index:50;}
+.koln_tel a{ display:block;  background-color:#f5c041; color:#fff; font-size:17px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:45px;}
+.koln_tel a:hover{ text-decoration:none;}
+
+.heidelberg_tel{width:100%; height:45px;  position:fixed; left:0; bottom:0; display:block; z-index:50;}
+.heidelberg_tel a{ display:block;  background-color:#4372fe; color:#fff; font-size:17px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-weight:bold; line-height:45px;}
+.heidelberg_tel a:hover{ text-decoration:none;}
+
+.dussel_company .ger li.ger_img1{ width:100%; height:373px; background:url(/images/dusseldorf/company1.jpg) center no-repeat;}
+.dussel_company .ger li.ger_txt{ margin:15px 0; width:100%; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+
+
+
+.d_c_tel{ display:none;}
+.m_d_c_tel{ display:block; line-height:19px; font-family:'NanumBarunGothic'; font-size:13px; text-align: left; color:#fefefe; padding:10px 0 0 23px;}
+.m_d_c_tel b{ line-height:30px; display: inline-block; font-size:21px;}
+.d_c_time{display:none;}
+.m_d_c_time{ display:block; line-height:20px; font-family:"Times New Roman"; font-size:18px; text-align: left; color:#fefefe; padding:0px 0 0 22px;}
+
+.dussel_company .d_map{ padding:13px 0 5px 0; height:350px;}
+.koln_company .d_map{ padding:13px 0 5px 0; height:350px;}
+.heidelberg_company .d_map{ padding:13px 0 5px 0; height:350px;}
+
+.table{ border:none; padding-bottom:10px;}
+.table li.t_kor{ width:100%;  float:none; }
+.table li.t_ger{ width:100%;  float:none; }
+.table li.t_eng{ width:100%;  float:none; }
+.table li li{border-top:none;}
+.table li ol li.dt{ background:none; text-align:left; line-height:18px; font-family:'NanumBarunGothic'; margin-top:25px; background-color:#3f3f3f; font-size:15px; color:#fff; padding:5px 5px 5px 5px; display: inline-block;}
+.table li ol li.dd{ background:none; line-height:18px; font-family:'NanumBarunGothic'; font-size:12px; color:#fff; padding:4px 10px; display:block; }
+
+.list ul li{ border:1px solid #515151; float:left; width:95%; min-width:340px; min-height:100px; margin:15px 2% 5px 2%; box-shadow:0 1px 2px rgba(0,0,0,.5); position:relative;}
+.list ul li span{ display:block;}
+.list ul li .price{ background:none; letter-spacing:-1px; padding:29px 5px 5px 10px; width:69px; height:50px; text-align:left; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-10px; bottom:-15px;}
+.list ul li .k_price{ background:none; letter-spacing:-1px; padding:29px 5px 5px 10px; width:69px; height:50px; text-align:left; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-10px; bottom:-15px;}
+.list ul li .h_price{ background:none; letter-spacing:-1px; padding:29px 5px 5px 10px; width:69px; height:50px; text-align:left; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-10px; bottom:-15px;}
+.list ul li .img{ width:40%; margin-right:3%; float:left;  height: auto;}
+.list ul li .txt{ width:57%; padding:12px 0 5px 0%; float:left; height:auto;}
+.list ul li .txt_192{ width:57%; padding:12px 0 5px 0%; float:left; height:auto;}
+.list ul li .txt_192 b{ color:#ff4848; font-weight:normal;}
+.list ul li .list_tit{ line-height:30px; min-height:37px; font-size:27px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; color:#fff;}
+.list ul li .list_txt{ line-height:18px; font-size:15px; font-family:'NanumBarunGothic', 'ＭＳ Ｐゴシック';  color:#b5b4b4;}
+.list ul li .list_txt13{ line-height:18px; font-size:14px; letter-spacing:-1px; font-family:'NanumBarunGothic', 'ＭＳ Ｐゴシック';  color:#b5b4b4;}
+.list ul li .list_cont{ margin-top:13px; max-width:80%; line-height:16px; font-size:13px; font-family: Arial, Helvetica, sans-serif; color:#706f6f;}
+.list ul li .list_cont_350{ display:none;}
+.hansang_img{ margin:16px auto 0 auto; width:95%;}
+.h_p3 { min-height:80px;}
+.h_p3 .list_tit{ margin-left:3%; padding:12px 0 5px 0%;}
+.list ul li.h_p3 .list_contw80{ margin-left:3%; padding:0 0 10px 0; width:80%; }
+.list ul li.h_p3 .h_price{ background:none; letter-spacing:-1px; padding:29px 5px 5px 10px; width:69px; height:50px; text-align:left; line-height:26px; font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:19px; font-weight:bold; position:absolute; right:-10px; bottom:-15px;}
+
+}
+
+@media only screen and (max-width:600px) {
+/****	koln					*****/
+.koln_company .ger li.ger_img1{ width:100%; height:500px; background:url(/images/koln/company1.jpg) center no-repeat;}
+.koln_company .ger li.ger_txt{ margin-left:0%; margin-top:25px; width:100%; font-size:14px; font-family:Arial, Helvetica, sans-serif; line-height:18px; color:#a2a2a2;}
+.koln_company .ger li.ger_img2{ width:100%; height:auto; margin:15px 0 0 0; overflow:hidden;}
+/****	//koln					*****/
+}
+
+@media only screen and (max-width:450px) {
+.list ul li .list_cont{ display:none;}
+.list ul li .list_cont_1{ display:none;}
+.list ul li .list_cont_350{ display:block; margin-top:13px; padding:5%; max-width:75%; line-height:16px; font-size:13px; font-family: Arial, Helvetica, sans-serif; color:#706f6f;}
+
+}
