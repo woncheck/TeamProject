@@ -1,0 +1,48 @@
+@CHARSET "EUC-KR";
+
+.top_positionR{ width:990px; height:0; margin:0 auto; position:relative; min-width:300px; }
+a.top{ display:block; position: fixed; right:50%; bottom:10px; z-index:5; margin-right:-545px; background:url(/images/sub/quick.jpg) left top no-repeat; width:42px; height:42px; }
+a.top:hover{ background:url(/images/sub/quick_over.jpg) left top no-repeat; }
+#copyright{ width:100%; min-height:50px; padding:5px 0 0 0; line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family: Arial, Helvetica, sans-serif; }
+#copoyright b{ color:#fff;}
+
+#gogimatcha_wrap{ 
+	max-width:1500px;
+	margin:0 auto; 
+	width:100%; 
+	min-height:790px;}
+
+#gogimatcha_top{ 
+	width:100%; 
+	height:470px; 
+	background:url(../images/gogimatcha_topBg.jpg) center no-repeat;}
+	
+.gogimatcha_logo{ 
+	position:absolute; 
+	left:50%; 
+	top:40px; 
+	margin-left:-360px; 
+	width:720px; 
+	height:160px; 
+	z-index:5;}
+	
+.gogimatcha_logo img{ 
+	width:100%; 
+	height:100%;}
+
+#gogimatcha_cont{ width:993px; padding-right:1px; height:0; margin:0 auto; position:relative;}
+#gogimatcha_cont ul{ position:absolute; left:0; top:-225px; z-index:10;}
+#gogimatcha_cont ul li{ float:left; margin-left:1px; width:330px; height:545px;}
+#gogimatcha_cont ul li a{ display:block; height:545px;}
+#gogimatcha_cont ul li a:hover{ text-decoration:none;}
+#gogimatcha_cont ul li img{ width:100%;}
+#gogimatcha_cont ul li a:hover img{ filter:alpha(opacity=50); opacity:.50;}
+#gogimatcha_cont ul li.dusseldorf{ background-color:#ff4848;}
+#gogimatcha_cont ul li.koln{ background-color: #f5c041;}
+#gogimatcha_cont ul li.heidelberg{ background-color: #4372fe;}
+#gogimatcha_cont ul li span{ display:block; color:#fff; font-family:Arial, Helvetica, sans-serif;}
+#gogimatcha_cont ul li .place{ font-size:43px; letter-spacing:-1px; font-weight:bold; line-height:50px; margin:50px 5px 0px 18px; height:127px; text-transform:uppercase;}
+#gogimatcha_cont ul li .address{ font-size:19px; font-weight:bold; line-height:25px; margin:0px 5px 0px 18px; width:187px;}
+#gogimatcha_cont ul li .address em{ display:none;}
+#gogimatcha_cont ul li .tel{ font-size:16px; font-weight:bold; line-height:30px; margin:10px 5px 0px 18px;}
+#gogimatcha_cont ul li:hover{ background-color: #000;}

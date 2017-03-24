@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,37 +7,55 @@
 <title>Insert title here</title>
 
 <style type="text/css">
-	
-	
+
 	#backimg {
-	position: static;
+		width:100%; 
+		height:900px;
+		background: url(images/main1.jpg) center top no-repeat; 
 	}
 	
- 	#logo {
-	position: absolute;
-	left: 100px; top: 100px;
-	} 
-
-
+	#backimg img{
+	margin: 200px;
+	}
+	
+	#footer{
+	background-color: black;
+	width: 1500px; height: 60px;
+	color: white;
+	font-size: 15px;
+	}
+		
+	
 </style>
 
 
 </head>
 <body>
 	<center>
-			<div id="backimg">
-				<img alt="백이미지" src="images/main1.jpg">
-			</div>
+	
+		
+		
+		<div id="backimg">
+			<div id="logo"> 
+			<img alt="백이미지" src="images/logo.png"> </div>
+		</div>
 			
- 			<div id="logo">
-				<img alt="백이미지" src="images/logo.png">
-			</div> 
-			
-			<div id="footer">
-				서울특별시 마포구 노고산동 107-111 미화빌딩 3층 <br>
-				SIST녀석들_ 			
-			</div>
+		<div id="footer" align="center">
+			<br/>
+			Seoul Metropolitan City Mapo-gu Nogosan-dong 107-111 Mihwa Building 3F _SIST guys	
+		</div>
 
 	</center>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

@@ -69,24 +69,25 @@
    }
    
    #bob:HOVER{
-   	  background: blue;
-   }
+   background: aqua;
+}
    
 </style>
 </head>
 <body>
 <center>
 <div id="headerbanner">
-	<a href="cafe.jsp" id="cafe">카페 </a>  &nbsp;|
-	<a href="bob.jsp" id="bob">밥집</a> &nbsp; |
-	<a href="sul.jsp" id="sul">술집</a>
+   <a href="cafe.jsp" id="cafe">카페</a>  &nbsp;|
+   <a href="bob.jsp" id="bob">밥집</a>&nbsp;|&nbsp;
+   <a href="sul.jsp" id="sul">술집</a>
 </div>
    <div id="header">
       <div id="navigationBox"><a href="main.jsp">메인으로</a>
       </div>
    </div>
    <div>
-      <div id="visual">
+     <div id="visual">
+      <a href="main.jsp"> <img alt="술집메인이미지" src="images/sul_main.jpg">
    </div>
    <div id="group">
       <p>1</p>

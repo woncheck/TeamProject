@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>bab</title>
+<title>bob</title>
 <style type="text/css">
 #headerbanner {
       width: 960px;
       height: 20px;
-      background: blue;
+      background: aqua;
       margin: 0
       auto;
    }
@@ -69,18 +69,18 @@
    }
    
    #sul:HOVER{
-   	  background: #FF0000;
+        background: #FF0000;
    }
    
 </style>
 </head>
 <body>
 <center>
-	<div id="headerbanner">
-		<a href="cafe.jsp" id="cafe">카페 </a> &nbsp;|
-		<a href="bob.jsp" id="bob">밥집</a>  &nbsp;|
-		<a href="sul.jsp" id="sul">술집</a>
-	</div>
+   <div id="headerbanner">
+      <a href="cafe.jsp" id="cafe">카페</a> &nbsp;|
+      <a href="bob.jsp" id="bob">밥집</a>&nbsp;|&nbsp;
+      <a href="sul.jsp" id="sul">술집</a>
+   </div>
    
    <div id="header">
       <div id="navigationBox"><a href="main.jsp">메인으로</a>
@@ -89,7 +89,7 @@
    
    <div>
       <div id="visual">
-      <a href="main.jsp"> <img alt="밥집메인이미지" src="images/cafe_main.jpg">
+      <a href="main.jsp"> <img alt="밥집메인이미지" src="images/bob_main.jpg">
       </div>
    </div>
   
@@ -105,7 +105,7 @@
       <p>9</p>
    </div>
    <div id="sideBanner">  
-   		<ul>
+         <ul>
          <li>1</li>
          <li>2</li>
          <li>3</li>
