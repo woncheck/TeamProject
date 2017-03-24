@@ -75,7 +75,9 @@
       auto;
       clear: both;
    }
-
+	table{					<!--í—¤ë” ê°„ê²©ë„ìš°ê¸°. -->
+		margin-top: 8px;
+	}
    
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -86,41 +88,41 @@
 <body>
    <div id="header">
       <div id="navigationBox">
-     	 <a href="main.jsp"><img alt="·Î°í" src="images/·Î°í.jpg"></a>
+     	 <a href="main.jsp"><img alt="ë¡œê³ " src="images/ë¡œê³ .jpg"></a>
      	 <table width="600" height="20" align="right">
       	<tr>
-	      	<td>È¨</td>
-			<td>È¸¿ø°¡ÀÔ</td>
-			<td>°øÁö»çÇ×</td>
+	      	<td>í™ˆ</td>
+			<td>íšŒì›ê°€ìž…</td>
+			<td>ê³µì§€ì‚¬í•­</td>
 			<td>News</td>
-			<td>¿µÈ­¸ñ·Ï</td>
-			<td>¿µÈ­¿¹¸Å</td>
-			<td>Ä¿¹Â´ÏÆ¼</td>
-			<td>¸¶ÀÌÆäÀÌÁö</td>
+			<td>ì˜í™”ëª©ë¡</td>
+			<td>ì˜í™”ì˜ˆë§¤</td>
+			<td>ì»¤ë®¤ë‹ˆí‹°</td>
+			<td>ë§ˆì´íŽ˜ì´ì§€</td>
 		</tr>
       </table>
       </div>
    </div>
 <center>
    <div>
-      <div id="visual"><img alt="¸ÞÀÎÀÌ¹ÌÁö" src="images/ÀÓ½Ã¸ÞÀÎ.jpg"></div>
+      <div id="visual"><img alt="ë©”ì¸ì´ë¯¸ì§€" src="images/ìž„ì‹œë©”ì¸.jpg"></div>
    </div>
    <div id="group">
       <p>
-        <a href="cafe.jsp"><img alt="Ä«Æä¸ÞÀÎÀÌ¹ÌÁö" src="images/cafe.jpg">
+        <a href="cafe.jsp"><img alt="ì¹´íŽ˜ë©”ì¸ì´ë¯¸ì§€" src="images/cafe.jpg">
          </a>
       </p>
       <p>
-         <a href="bob.jsp"><img alt="¹äÁý¸ÞÀÎÀÌ¹ÌÁö" src="images/bob.jpg">
+         <a href="bob.jsp"><img alt="ë°¥ì§‘ë©”ì¸ì´ë¯¸ì§€" src="images/bob.jpg">
          </a>
       </p>
       <p>
-          <a href="sul.jsp"><img alt="¼úÁý¸ÞÀÎÀÌ¹ÌÁö" src="images/sul.jpg">
+          <a href="sul.jsp"><img alt="ìˆ ì§‘ë©”ì¸ì´ë¯¸ì§€" src="images/sul.jpg">
          </a>
       </p>
    </div>
    
-   <div id="sideBanner">¸Þ´º
+   <div id="sideBanner">ë©”ë‰´
       <ul>
          <li>1</li>
          <li>2</li>
@@ -128,7 +130,7 @@
       </ul>
    </div>
    
-   <div id="footer">ÆÀ¿ø¼Ò°³, ±âÅ¸µîµî</div>
+   <div id="footer">íŒ€ì›ì†Œê°œ, ê¸°íƒ€ë“±ë“±</div>
   </center>
   
 </body>

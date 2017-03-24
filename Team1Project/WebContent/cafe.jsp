@@ -91,7 +91,7 @@
    
    <div>
       <div id="visual">
-      <a href="main.jsp"> <img alt="카페메인이미지" src="images/cafe_main.jpg">
+      <a href="main.jsp"> <img alt="카페메인이미지" src="images/cafe_main.jpg"></a>
       </div>
    </div>
    
