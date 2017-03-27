@@ -41,7 +41,7 @@ a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=tru
 #main_cont{ width:993px; padding-right:1px; height:0; margin:0 auto; position:relative;}
 #main_cont ul{ position:absolute; left:0; top:-225px; z-index:10;}
 #main_cont ul li{ float:left; margin-left:1px; width:330px; height:545px;}
-#main_cont ul li a{ display:block; height:545px;}
+#main_cont ul li a{ display:block; height:545px;} 
 #main_cont ul li a:hover{ text-decoration:none;}
 #main_cont ul li img{ width:100%;}
 #main_cont ul li a:hover img{ filter:alpha(opacity=50); opacity:.50;}
