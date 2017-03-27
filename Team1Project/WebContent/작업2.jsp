@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR" %>
-
+<!--
+#main_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:850px;} 
+배경길이 수정
+ -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -30,7 +33,8 @@ a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=tru
 #copyright{ width:100%; min-height:50px; padding:5px 0 0 0; line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family: Arial, Helvetica, sans-serif; }
 #copoyright b{ color:#fff;}
 
-#main_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:790px;}
+#main{ width:100%; background:url(images/bg_i_11.jpg) no-repeat;} 
+#main_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:850px;}
 #main_top{ width:100%; height:470px; background:url(images/gogimatcha_topBg.jpg) center no-repeat;}
 .main_logo{ position:absolute; left:50%; top:40px; margin-left:-360px; width:720px; height:160px; z-index:5;}
 .main_logo img{ width:100%; height:100%;}
@@ -54,7 +58,7 @@ a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=tru
 </style>
 </head>
 <body>
-	<div>
+	<div id="main">
 		<div id="main_wrap">
 			<div id="main_top">
 				<div class="main_logo"><a href="main.jsp"><img src="images/신촌사람들.png" alt="로고"></a></div>			

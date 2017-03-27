@@ -75,7 +75,7 @@
       auto;
       clear: both;
    }
-	table{					<!--헤더 간격띄우기. -->
+	table{					<!--�ㅻ�� 媛�寃⑸���곌린. -->
 		margin-top: 8px;
 	}
    
@@ -88,41 +88,41 @@
 <body>
    <div id="header">
       <div id="navigationBox">
-     	 <a href="main.jsp"><img alt="로고" src="images/로고.jpg"></a>
+     	 <a href="main.jsp"><img alt="濡�怨�" src="images/濡�怨�.jpg"></a>
      	 <table width="600" height="20" align="right">
       	<tr>
-	      	<td>홈</td>
-			<td>회원가입</td>
-			<td>공지사항</td>
+	      	<td>��</td>
+			<td>����媛���</td>
+			<td>怨듭��ы��</td>
 			<td>News</td>
-			<td>영화목록</td>
-			<td>영화예매</td>
-			<td>커뮤니티</td>
-			<td>마이페이지</td>
+			<td>����紐⑸�</td>
+			<td>������留�</td>
+			<td>而ㅻ�ㅻ����</td>
+			<td>留��댄���댁�</td>
 		</tr>
       </table>
       </div>
    </div>
 <center>
    <div>
-      <div id="visual"><img alt="메인이미지" src="images/임시메인.jpg"></div>
+      <div id="visual"><img alt="硫��몄�대�몄�" src="images/����硫���.jpg"></div>
    </div>
    <div id="group">
       <p>
-        <a href="cafe.jsp"><img alt="카페메인이미지" src="images/cafe.jpg">
+        <a href="cafe.jsp"><img alt="移댄��硫��몄�대�몄�" src="images/cafe.jpg">
          </a>
       </p>
       <p>
-         <a href="bob.jsp"><img alt="밥집메인이미지" src="images/bob.jpg">
+         <a href="bob.jsp"><img alt="諛μ�硫��몄�대�몄�" src="images/bob.jpg">
          </a>
       </p>
       <p>
-          <a href="sul.jsp"><img alt="술집메인이미지" src="images/sul.jpg">
+          <a href="sul.jsp"><img alt="��吏�硫��몄�대�몄�" src="images/sul.jpg">
          </a>
       </p>
    </div>
    
-   <div id="sideBanner">메뉴
+   <div id="sideBanner">硫���
       <ul>
          <li>1</li>
          <li>2</li>
@@ -130,7 +130,7 @@
       </ul>
    </div>
    
-   <div id="footer">팀원소개, 기타등등</div>
+   <div id="footer">������媛�, 湲고���깅��</div>
   </center>
   
 </body>

@@ -9,5 +9,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/SISTH/git/TeamProject/Team1Project/WebContent/WEB-INF/lib/JTattoo-1.6.11.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
