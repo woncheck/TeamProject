@@ -79,6 +79,8 @@ body {
 	border: 1px solid #000;
 	width: 20%;
 	border-radius: 10px;
+	background: #333;
+	color: #fff;
 }
 
 #best {
@@ -204,7 +206,7 @@ body {
 			</tr>
 		</table>
 	</div>
-	<div id="wrapper">
+	
 		<div id="best">
 			<h3 align="center">Best review</h3>
 			<ul id="best_review">
@@ -229,7 +231,7 @@ body {
 					id="best_review_image"></li>
 			</ul>
 		</div>
-		</div>
+		
 		<div  class="margin" align="left">
 			<table>
 			<p id="content_header" align="left">¼­ÃÌ ±è¾¾ 4.7</p>
