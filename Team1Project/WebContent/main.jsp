@@ -3,6 +3,10 @@
 <!--
 #main_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:850px;} 
 배경길이 수정
+
+#main, #main:after { 
+	    position: fixed;
+	    추가 시 copyright 밑에 배경 뜨게 할 수 있다.
  -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -18,7 +22,8 @@
 <style>
 html{overflow:scroll; overflow-x:auto}
 
-body{margin:0px; padding:0px; font-size:11px;line-height:140%; background-color:#2d2d2d; color:#888888}
+body{margin:0px; padding:0px; font-size:11px;line-height:140%; background-color:#2d2d2d; color:#888888; }
+
 
 p{margin:0; padding:0;}
 
@@ -33,10 +38,14 @@ a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=tru
 #copyright{ width:100%; min-height:50px; padding:5px 0 0 0; line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family: Arial, Helvetica, sans-serif; }
 #copoyright b{ color:#fff;}
 
-#main{ width:100%; background:url(images/main/bg_i_11.jpg) no-repeat;} 
+#main{ background:url(images/main/bg_i_11.jpg) no-repeat; 
+position: fixed; width: 100%; z-index:1;
+animation: imageAnimation 8s linear infinite 0s;
+animation-iteration-count:1;
+} 
 #main_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:850px;}
 #main_top{ width:100%; height:470px; background:url(images/main/gogimatcha_topBg.jpg) center no-repeat;}
-.main_logo{ position:absolute; left:50%; top:40px; margin-left:-360px; width:720px; height:160px; z-index:5;}
+.main_logo{ position:absolute; left:50%; top:0px; margin-left:-360px; width:720px; height:160px; z-index:5;}
 .main_logo img{ width:100%; height:100%;}
 #main_cont{ width:993px; padding-right:1px; height:0; margin:0 auto; position:relative;}
 #main_cont ul{ position:absolute; left:0; top:-225px; z-index:10;}
@@ -55,13 +64,19 @@ a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=tru
 #main_cont ul li .tel{ font-size:16px; font-weight:bold; line-height:30px; margin:10px 5px 0px 18px;}
 #main_cont ul li:hover{ background-color: #000;}
 
+	@keyframes imageAnimation {     
+	    0% { opacity: 0;  }
+	    16% { opacity: 1;  }
+	    34% { opacity: 1; }        
+	    100% { opacity: 1;}
+	}
 </style>
 </head>
 <body>
 	<div id="main">
 		<div id="main_wrap">
 			<div id="main_top">
-				<div class="main_logo"><a href="main.jsp"><img src="images/main/신촌사람들.png" alt="로고"></a></div>			
+				<div class="main_logo"><a href="main.jsp"><img src="images/main/mainlogo.png" alt="로고"></a></div>			
 			</div>
 			<div id="main_cont">
 				<ul>

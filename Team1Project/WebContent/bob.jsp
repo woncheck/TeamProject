@@ -272,16 +272,17 @@ h2{
 		<div id="sub_title"><h2>¹äÁý¸®½ºÆ®</h2></div>
 <div class="body_body2" >
 		<div id="group">				
-				 	<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/°í»ïÀÌ_c.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/³ì¿ø½Ó¹ä_c.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/ºÀÁê¸£¹ä»ó _b.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/»è_b.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¼Ò½ÅÀÌ½î_b.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¾Æ¸¸µµ_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¿¬³²¼­¼­°¥ºñ_c.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¿¬Èñ±è¹ä_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/Á¶¼±ÀÇÀ°°³Àå_a.jpg" ></span></p>		
+			 	<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/°í»ïÀÌ_c.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/³ì¿ø½Ó¹ä_c.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/ºÀÁê¸£¹ä»ó _b.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/»è_b.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¼Ò½ÅÀÌ½î_b.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¾Æ¸¸µµ_a.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¿¬³²¼­¼­°¥ºñ_c.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/¿¬Èñ±è¹ä_a.jpg" ></span></p>
+				<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/bob/Á¶¼±ÀÇÀ°°³Àå_a.jpg" ></span></p>		
 		</div>
+		
 </div>	
 
 	
