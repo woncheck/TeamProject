@@ -6,25 +6,9 @@
 <meta charset="EUC-KR">
 <title>cafe</title>
 <style>
-
-
-
 .sub_wrap {
 		width: 68%;
 	
-}
-
-
-#menu {
-	width:68%;
-    height:50px;
-}
-#menu2 {
-    margin: 0 auto;
-    width: 68%;
-    height: 30px;
-    padding-left: 1px;
- 
 }
 
 body {
@@ -44,7 +28,6 @@ a {
     height: 150px;
    
 }
-
    #group{
       width: 70%;
       background-color: grey;
@@ -58,7 +41,10 @@ a {
    
       float: left;
    }
-
+   #group p:HOVER img{
+   		filter:alpha(opacity=50); opacity:.50;
+   		
+   }
 .top_image {
   
     border-radius: 50%;
@@ -66,17 +52,12 @@ a {
     overflow: hidden;
     position: relative;
 }
-
-
-
 #menu #menu2 a.cafe{ background-color:#ff4848;}
 #menu #menu2 a.bob:hover{ background-color:#f5c041;}
 #menu #menu2 a.pub:hover{background-color:#4372fe; }
 .main-header {
     background-image: url('images/main/cafe_main_image.png');
 }
-
-
 .pg-main .main-header {
     padding-top: 150px;
 }
@@ -133,21 +114,15 @@ p {
 }
 .pg-main .main-header .main-search {
     position: relative;
-    /* margin: 10px 10px 15px 10px; */
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: 270px;
     height: 15px;
-    border: 1px solid #ff792a;
+    border: 1px solid #ff4848;
     border-radius: 60px;
     background-color: #ffffff;
 }
-.pg-main .main-header .main-search {
-    margin-left: 630px;	
-    margin-bottom: 15px;
-    margin-top: 20px;
-    height: 15px;
-  	width: 270px;
-    border: 2px solid #ff4848;
-    border-radius: 80px;
-}
+
 .shortcut-app.type-main {
     padding: 21px 40px 0px 40px;
     height: 110px;
@@ -182,7 +157,6 @@ p {
     position: absolute;
     top: 0;
     right: -1px;
-
     color: #ffffff;
   
     background-color:#ff4848;
@@ -192,22 +166,32 @@ p {
 h2{
 	color: #ff4848;
 }
-
+.foot{
+ position: absolute;
+ bottom: -900px;
+ width:100%;
+ height: 50px;
+ background-color:#3e3e3e; 
+  }
+  
+  
 </style>
 </head>
 <body>
-
 	<center>
 <div class="body_top">
 	
-		<table id="menu">
-		<tr>
-			<td width="20%" id="menu1" ><a href="main.jsp"><img src="images/main/logo.jpg"></a> <img src="images/main/menu_bar.JPG" height="70%"> </td>
-   			<td width="40%" id="menu2" align="center"> <a href="cafe.jsp;" class="cafe">카페(cafe)</a>&nbsp;|
+		<table id="menu" width="70%">
+		<tr height="50px">
+			<td id="menu1" width="30%" align="left"><a href="main.jsp"><img src="images/main/logo.jpg"></a> 
+																		<img src="images/main/menu_bar.JPG">
+																		<img src="images/main/textlogo.png">
+			</td>
+   			<td id="menu2" width="40%" align="center"> <a href="cafe.jsp;" class="cafe">카페(cafe)</a>&nbsp;|
    			 <a href="bob.jsp;" class="bob">밥집(rest)</a>&nbsp;|
    			 <a href="sul.jsp;" class="pub" id="sul">술집(bar)</a></td>
    			 
-   			<td width="40%" id="menu3" ><img src="images/main/menu_list.jpg" width="27%" height="80%"><img src="images/main/heart.jpg"><a href="newmember.jsp" class="bob"><img src="images/main/informaiton.jpg"></td></tr>
+   			<td id="menu3" width="30%" align="right"><img src="images/main/menu_list.jpg"><img src="images/main/heart.jpg"><a href="newmember.jsp" class="bob"><img src="images/main/informaiton.jpg"></td></tr>
    			</table>
 </div>
 	<hr style="border: 1px solid #ff4848;" width="100%"> 
@@ -222,17 +206,15 @@ h2{
     
 
       <!-- 전체 검색 -->
-      <fieldset class="main-search ng-scope" ng-controller="mp20_main_search_suggest_controller">
-        <legend></legend>
-
-        <label class="search-word" for="main-search">
-         <input id="main-search" name="main-search" type="text" ng-model="keyword" placeholder="지역, 식당 또는 음식" autocomplete="off" onclick="common_ga('PG_MAIN', 'CLICK_SEARCH_MAIN')" ng-click="open_search_layer()" ng-keyup="change_keyword($event)" class="ng-pristine ng-untouched ng-valid">
-        
-        </label>
-
-        <input class="btn-search" type="submit" value="검색" onclick="common_ga('PG_MAIN', 'CLICK_KEYWORD_SEARCH');" ng-click="go_to_search()">
-      </fieldset>
-
+      <div align="center">
+     	<fieldset class="main-search ng-scope" ng-controller="mp20_main_search_suggest_controller">
+      		<img alt="돋보기이미지" src="images/main/search_img.png" width="24px" align="left">
+       		<label class="search-word" for="main-search">
+         		<input id="main-search" name="main-search" type="text" ng-model="keyword" placeholder="지역, 식당 또는 음식" autocomplete="off" onclick="common_ga('PG_MAIN', 'CLICK_SEARCH_MAIN')" ng-click="open_search_layer()" ng-keyup="change_keyword($event)" class="ng-pristine ng-untouched ng-valid" size="18">
+        	</label>
+        	<input class="btn-search" type="submit" value="검색" onclick="common_ga('PG_MAIN', 'CLICK_KEYWORD_SEARCH');" ng-click="go_to_search()">
+      	</fieldset>
+	  </div>
 
 	
     </header>
@@ -260,24 +242,27 @@ h2{
 		</div></div></div>
 		<div id="sub_title"><h2>카페리스트</h2></div>
 <div class="body_body2" >
-		<div id="group">
-		
-				 <p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/14727698_1759275417671743_2664540016142712832_a.jpg" ></span></p>
-					
-		
+		<div id="group">		
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/노아스로스팅_c.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/도피성_b.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/마호가니_c.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/매뉴팩트커피_c.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/미네르바_b.jpg.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/오트뤼_a.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/클로리스_a.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/피터캣_c.jpg" ></span></p>
+					<p><a href="bob.jsp;" class="d_over"></a><span class="img"><img src="images/main/kate/cafe/피터팬1978_a.jpg" ></span></p>	
 		</div>
 </div>	
 
 	
-<div class="copylight"></div>
+<div class="foot">
+
+
+    <a href="/" class="btn-mp">SIST 녀석들</a>
+    <p class="subtitle">Eat, Share, Be Happy.</p>
+
+  </div>
 
 
 </center>

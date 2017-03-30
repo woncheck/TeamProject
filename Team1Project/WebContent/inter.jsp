@@ -117,7 +117,7 @@
 		<div id="interlogo" align="center">
 			<tr>
 				<td><img alt="interlogo" src="images/main/interlogo.png">
-					<a href="ÀÛ¾÷.jsp"></a>
+					<a href="main.jsp"></a>
 				</td>
 			</tr>
 		</div>		
