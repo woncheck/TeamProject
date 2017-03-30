@@ -8,6 +8,7 @@
 <title>detailFrom</title>
 <script
 	src="http://openapi.map.naver.com/openapi/v2/maps.js?clientId=cpw9RMOfkmb0qIa7Vz23"></script>
+</head>
 <style>
 body {
 	margin: 0 auto;
@@ -71,18 +72,6 @@ body {
 	height: 50% !important;
 }
 
-#content {
-	float: right;
-	margin-right: 25px;
-	margin-top: 150px;
-	width: 45%;
-}
-
-#content_header {
-	font-size: 60px;
-	color: orange;
-	margin-bottom: 0px;
-}
 #sidebar_a {
 	float: right;
 	margin-top: 30px;
@@ -100,13 +89,6 @@ body {
 	line-height: 20px;
 }
 
-#best_review_image {
-	width: 100%;
-	height: 50%;
-	margin-right: 100px;
-	margin-top: 30px;
-}
-
 #best_review {
 	list-style: none;
 }
@@ -116,8 +98,27 @@ body {
 	height: 250px;
 }
 
+#best_review_image {
+	width: 100%;
+	height: 50%;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+.margin p {
+	font-size: 15px;
+	margin-left: 46%;
+}
+
+#content_header {
+	font-size: 60px;
+	color: orange;
+	margin-bottom: 0px;
+	margin-left: 43%;
+	margin-top: 250px;
+}
+
 #review {
-	margin-top : 750px;
+	margin-top : 300px;
 	margin-left: 27.5%;
 	width: 45%;
 }
@@ -149,27 +150,25 @@ body {
 	background-color: #3B83B1;
 	height: 8%;
 }
-#detail_content{
-	font-size: 15px;
-	margin-left: 340px;
-}
+
 </style>
-</head>
 <body>
 &nbsp;
 	<div id="header">
-		<img alt="로고" src="images/로고.jpg" id="logo"> <input type="text"
-			value="지역,식당 또는 음식입력" onclick="this.value='';" /> <img alt="검색"
-			src="images/search.png" id="search"> <a href="#">예약</a> <a
-			href="#">맛집 리스트</a> <a href="#">리뷰</a> <a href="#">정보수정</a>
+		<img alt="로고" src="images/로고.jpg" id="logo"> 
+		<input type="text" value="지역,식당 또는 음식입력" onclick="this.value='';" />
+		<img alt="검색" src="images/search.png" id="search">
+		<a href="#">예약</a>
+		<a href="#">맛집 리스트</a> 
+		<a href="#">리뷰</a> 
+		<a href="#">정보수정</a>
 	</div>
 	<div id="images">
-		<img alt="이미지" src="images/노아스로스팅_a.jpg"> <img alt="이미지"
-			src="images/노아스로스팅_b.jpg"> <img alt="이미지"
-			src="images/노아스로스팅_c.jpg">
+		<img alt="이미지" src="images/노아스로스팅_a.jpg"> 
+		<img alt="이미지" src="images/노아스로스팅_b.jpg"> 
+		<img alt="이미지" src="images/노아스로스팅_c.jpg">
 	</div>
 	<div id="sidebar_a">
-		<h3>Sidebar A One</h3>
 		<!--지도 삽입  사용자지정  width : 378-->
 		<table cellpadding="0" cellspacing="0" width="380">
 			<tr>
@@ -231,16 +230,18 @@ body {
 			</ul>
 		</div>
 		</div>
-			<table id="detail_content" align="left">
-			<p id="content_header" style="margin-left: 35%;">서촌 김씨 4.7</p>
-			<p style="font-size:12px; margin-left: 35%">view : 84.118 review : 26 like : 2,541</p>
-			<hr color="black" size="0.5px" width="300" align="left"  style="margin-left: 35%;">
-			<p  style="margin-left: 35%;">주소 : 서울시 종로구 창성동 158-2</p></br>
-			<p  style="margin-left: 35%;">전화 번호 : 02-730-7787</p></br>
-			<p  style="margin-left: 35%;">주차 : 주차공간 없음</p></br>
-			<p  style="margin-left: 35%;">영업 시간 : 12:00 ~ 24:00</p>
-			<hr color="black" size="1px" width="300" align="left"  style="margin-left: 35%;">
+		<div  class="margin" align="left">
+			<table>
+			<p id="content_header" align="left">서촌 김씨 4.7</p>
+			<p style="font-size:12px;">view : 84.118 review : 26 like : 2,541</p>
+			<hr color="black" size="0.5px" width="300">
+			<p>주소 : 서울시 종로구 창성동 158-2</p></br>
+			<p>전화 번호 : 02-730-7787</p></br>
+			<p>주차 : 주차공간 없음</p></br>
+			<p>영업 시간 : 12:00 ~ 24:00</p>
+			<hr color="black" size="1px" width="300">
 			</table>
+		</div>
 	<div id="review">
 		<p align="center">Review</p>
 		<ul id="best_review">
