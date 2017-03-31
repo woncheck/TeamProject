@@ -74,19 +74,59 @@
 			</div>
 			<!-- //nav -->
 		</div>
-		<div id="review">
-		<p align="center">Review</p>
-		<ul id="best_review">
-			<li id="review_name">작성자 : hye*</li>
-			<br />
-			<li id="review_like">별점 : 3.5</li>
-			<hr color="black" size="1px">
-			<li id="review_content">셰프님이 재료나 맛에 굉장히 신경을 많이쓰고 정성들여 내놓는다는
-				전반적으로 메뉴 하나하나 고심하고 정성 들여 만든다는 느낌을 많이 받아서 좋았던 곳!</li>
-			<li><img alt="리뷰사진" src="images/노아스로스팅_a.jpg" id="review_image">
-			</li>
-		</ul>
-	</div>
+		
+		<!--review 전체를 감싼 div  -->
+		<div class="review">
+		<!-- Comments Form -->
+                <div class="well">
+                    <h4 align="center">리뷰 입력창</h4>
+                    <form role="form">
+                        <div class="review_insert">
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">입력</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- Posted Comments -->
+
+                <!-- review 내용  -->
+                <div class="review_content">
+                       <img class="review_object" src="images/로고.jpg">
+                  <div class="review_body">
+                        <h4 class="review_heading">작성자 이름
+                            <small>작성 날자</small>
+                        </h4>
+                        작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용
+                    </div>
+                </div>
+
+                <!-- Comment -->
+                <div class="review_content">
+                       <img class="review_object" src="images/로고.jpg">
+                  <div class="review_body">
+                        <h4 class="review_heading">작성자 이름
+                            <small>작성 날자</small>
+                        </h4>
+                        작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용
+                    </div>
+                </div>
+                        <!-- Nested Comment -->
+                        <div class="review_content">
+                       <img class="review_object" src="images/로고.jpg">
+                  <div class="review_body">
+                        <h4 class="review_heading">작성자 이름
+                            <small>작성 날자</small>
+                        </h4>
+                        작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용작성내용
+                    </div>
+                </div>
+                        <!-- End Nested Comment -->
+                    </div>
+                </div>
+               </div>
 		<!--베스트 리뷰 , 지도 가게 정보끝 -->
 	</div>
 	<div class="footer">
