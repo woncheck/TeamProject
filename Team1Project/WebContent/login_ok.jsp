@@ -8,7 +8,7 @@
 	//DB ¿¬µ¿
 	sistDAO dao=sistDAO.newInstance();
 	int res=dao.isLogin(email, password);
-	
+		
 	if(res==0){
 %>
 	<script>
@@ -27,7 +27,7 @@
 		String name=dao.getLogData(email);
 		session.setAttribute("email", email);
 		session.setAttribute("name", name);
-		response.sendRedirect("login.jsp");
+		response.sendRedirect("cafe.jsp");
 	}
 		
 %>

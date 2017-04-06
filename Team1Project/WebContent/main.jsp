@@ -4,9 +4,9 @@
 #main_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:850px;} 
 배경길이 수정
 
-#main, #main:after { 
-	    position: fixed;
-	    추가 시 copyright 밑에 배경 뜨게 할 수 있다.
+#main{ 
+       height를 100%로 할 시에 copyright 밑에 배경이 뜨게 할 수 있다.
+       없앨 시 copyright 밑에 검은색 배경화면만 뜬다.
  -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -16,7 +16,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript" src="cafe.jsp"></script>
-<script type="text/javascript" src="bob.jsp"></script>	
+<script type="text/javascript" src="bob.jsp"></script>   
 <script type="text/javascript" src="sul.jsp"></script>
 
 <style>
@@ -39,7 +39,7 @@ a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=tru
 #copoyright b{ color:#fff;}
 
 #main{ background:url(images/main/bg_i_11.jpg) no-repeat; 
-position: fixed; width: 100%; z-index:1;
+position: fixed; height:100%; width: 100%; z-index:1;
 animation: imageAnimation 8s linear infinite 0s;
 animation-iteration-count:1;
 } 
@@ -64,29 +64,29 @@ animation-iteration-count:1;
 #main_cont ul li .tel{ font-size:16px; font-weight:bold; line-height:30px; margin:10px 5px 0px 18px;}
 #main_cont ul li:hover{ background-color: #000;}
 
-	@keyframes imageAnimation {     
-	    0% { opacity: 0;  }
-	    16% { opacity: 1;  }
-	    34% { opacity: 1; }        
-	    100% { opacity: 1;}
-	}
+   @keyframes imageAnimation {     
+       0% { opacity: 0;  }
+       16% { opacity: 1;  }
+       34% { opacity: 1; }        
+       100% { opacity: 1;}
+   }
 </style>
 </head>
 <body>
-	<div id="main">
-		<div id="main_wrap">
-			<div id="main_top">
-				<div class="main_logo"><a href="main.jsp"><img src="images/main/mainlogo.png" alt="로고"></a></div>			
-			</div>
-			<div id="main_cont">
-				<ul>
-					<li class="카페"><a href="cafe.jsp"><img src="images/main/cafe.jpg" width="100%" alt="카페" /><span class="place">카페</span><span class="address">당신이 있는 그 곳에  <em> / </em>커피 한 잔의 여유를</span><span class="tel">TEL : 0211-3422-7732</span></a></li>
-					<li class="밥집"><a href="bob.jsp"><img src="images/main/bob.jpg" width="100%" alt="밥집" /><span class="place">밥집</span><span class="address">당신이 있는 그 곳에  &nbsp; <em> / </em> 1인분 같은 2인분을</span><span class="tel">TEL : 0211-9637-2755</span></a></li>
-					<li class="술집" style="text-align:left;"><a href="sul.jsp"><img src="images/main/sul.jpg" width="100%" alt="술집" /><span class="place">술집</span><span class="address">당신이 있는 그 곳에  <em> / </em>오늘을 담을 술잔을</span><span class="tel">TEL : 0211-1251-1769</span></a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="copyright">copyright(c) <b>신촌 SIST녀석들</b> ALL RIGHT RESERVED</div>
-	</div>	
+   <div id="main">
+      <div id="main_wrap">
+         <div id="main_top">
+            <div class="main_logo"><a href="inter.jsp"><img src="images/main/mainlogo.png" alt="로고"></a></div>         
+         </div>
+         <div id="main_cont">
+            <ul>
+               <li class="카페"><a href="cafe.jsp"><img src="images/main/cafe.jpg" width="100%" alt="카페" /><span class="place">카페</span><span class="address">당신이 있는 그 곳에  <em> / </em>커피 한 잔의 여유를</span><span class="tel">TEL : 0211-3422-7732</span></a></li>
+               <li class="밥집"><a href="bob.jsp"><img src="images/main/bob.jpg" width="100%" alt="밥집" /><span class="place">밥집</span><span class="address">당신이 있는 그 곳에  &nbsp; <em> / </em> 1인분 같은 2인분을</span><span class="tel">TEL : 0211-9637-2755</span></a></li>
+               <li class="술집" style="text-align:left;"><a href="sul.jsp"><img src="images/main/sul.jpg" width="100%" alt="술집" /><span class="place">술집</span><span class="address">당신이 있는 그 곳에  <em> / </em>오늘을 담을 술잔을</span><span class="tel">TEL : 0211-1251-1769</span></a></li>
+            </ul>
+         </div>
+      </div>
+      <div id="copyright">copyright(c) <b>신촌 SIST녀석들</b> ALL RIGHT RESERVED</div>
+   </div>   
 </body>
 </html>

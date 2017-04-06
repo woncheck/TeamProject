@@ -116,16 +116,18 @@
 				
 		<div id="interlogo" align="center">
 			<tr>
-				<td><a href="main.jsp"><img alt="interlogo" src="images/main/interlogo.png"></a></td>
+				<td>
+					<a href="main.jsp"><img alt="interlogo" src="images/main/interlogo.png"></a>
+				</td>
 			</tr>
 		</div>		
 				
 		<div id="footer" align="center" >
 			<br/>
 			<tr>
-			<td>
-			Seoul Metropolitan City Mapo-gu Nogosan-dong 107-111 Mihwa Building 3F _SIST guys
-			</td>
+				<td>
+				Seoul Metropolitan City Mapo-gu Nogosan-dong 107-111 Mihwa Building 3F _SIST guys
+				</td>
 			</tr>
 		</div>
 
