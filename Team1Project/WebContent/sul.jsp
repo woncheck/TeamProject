@@ -482,7 +482,7 @@ width: 180px;
 				</div>
 				<div class="menu3"
 					style="float: right; width: 8%; margin-top: -23px;">
-					<img src="images/main/menu_list.jpg"><img src="images/main/heart.jpg">
+					<a href="list.jsp"><img src="images/main/menu_list.jpg"></a>
 				</div>
 
 				<div class="menu4"

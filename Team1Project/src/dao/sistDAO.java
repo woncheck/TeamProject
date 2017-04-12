@@ -248,14 +248,14 @@ public class sistDAO {
 			
 			return list;
 		}
-	   //cafe보여주기
+	 
 	   public ArrayList<sinchonVO> allsearch_cafe(){
 	
 		   ArrayList<sinchonVO> list=new ArrayList<>();
 		   try{
 				getConnection();
-			
-				String sql="SELECT no,name,likes "
+
+				String sql="SELECT no,name,loc,tel,parking,starttime,endtime,likes "
 						+ " FROM Sinchon "
 						+ " where foodType = 'cafe' ";
 				ps=conn.prepareStatement(sql);
@@ -264,7 +264,12 @@ public class sistDAO {
 					sinchonVO vo=new sinchonVO();
 					vo.setNo(Integer.parseInt(rs.getString(1)));
 					vo.setName(rs.getString(2));
-					vo.setLikes(rs.getString(3));
+					vo.setLoc(rs.getString(3));
+					vo.setTel(rs.getString(4));
+					vo.setParking(rs.getString(5));
+					vo.setStarttime(rs.getString(6));
+					vo.setEndtime(rs.getString(7));
+					vo.setLikes(rs.getString(8));
 					
 					list.add(vo);
 				}
@@ -286,7 +291,7 @@ public class sistDAO {
 		   try{
 				getConnection();
 			
-				String sql="SELECT no,name,likes "
+				String sql="SELECT no,name,loc,tel,parking,starttime,endtime,likes "
 						+ " FROM Sinchon "
 						+ " where foodType = 'pub' ";
 				ps=conn.prepareStatement(sql);
@@ -295,7 +300,12 @@ public class sistDAO {
 					sinchonVO vo=new sinchonVO();
 					vo.setNo(Integer.parseInt(rs.getString(1)));
 					vo.setName(rs.getString(2));
-					vo.setLikes(rs.getString(3));
+					vo.setLoc(rs.getString(3));
+					vo.setTel(rs.getString(4));
+					vo.setParking(rs.getString(5));
+					vo.setStarttime(rs.getString(6));
+					vo.setEndtime(rs.getString(7));
+					vo.setLikes(rs.getString(8));
 					
 					list.add(vo);
 				}
@@ -317,7 +327,7 @@ public class sistDAO {
 		   try{
 				getConnection();
 			
-				String sql="SELECT no,name,likes "
+				String sql="SELECT no,name,loc,tel,parking,starttime,endtime,likes "
 						+ " FROM Sinchon "
 						+ " where foodType = 'restaurant' ";
 				ps=conn.prepareStatement(sql);
@@ -326,7 +336,12 @@ public class sistDAO {
 					sinchonVO vo=new sinchonVO();
 					vo.setNo(Integer.parseInt(rs.getString(1)));
 					vo.setName(rs.getString(2));
-					vo.setLikes(rs.getString(3));
+					vo.setLoc(rs.getString(3));
+					vo.setTel(rs.getString(4));
+					vo.setParking(rs.getString(5));
+					vo.setStarttime(rs.getString(6));
+					vo.setEndtime(rs.getString(7));
+					vo.setLikes(rs.getString(8));
 					
 					list.add(vo);
 				}

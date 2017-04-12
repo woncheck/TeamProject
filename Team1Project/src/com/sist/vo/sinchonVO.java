@@ -86,9 +86,6 @@ public class sinchonVO {
 	}
 	public void setHref2(String href2) {
 		this.href2 = href2;
-	}
-	   
-
-	   
+	} 
 	   
 }

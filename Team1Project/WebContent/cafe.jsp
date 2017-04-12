@@ -21,6 +21,7 @@
 	if (name_place == null) {
 		no = 0;
 		list = dao.allsearch_cafe();
+		
 
 	} else {
 		no = 1;
@@ -64,7 +65,7 @@ body {
 	width: 350px;
 	height: 350px;
 	margin-right: 2px;
-	margin-left: 2px;
+/* 	margin-left: 2px; */
 }
 
 .top_image {
@@ -420,7 +421,7 @@ fieldset {
 				</div>
 				<div class="menu3"
 					style="float: right; width: 8%; margin-top: -23px;">
-					<img src="images/main/menu_list.jpg">
+					<a href="list.jsp"><img src="images/main/menu_list.jpg"></a>
 				</div>
 
 				<div class="menu4"
@@ -488,7 +489,7 @@ fieldset {
 				
 					</a> | 
 					<a href="logout.jsp?type=<%=type%>">·Î±×¾Æ¿ô</a> 
-					<img src="images/main/menu_list.jpg">
+					<a href="list.jsp"><img src="images/main/menu_list.jpg"></a>
 					<a href="heart.jsp?name=name"><a href="heart.jsp"><img src="images/main/heart.jpg"></a>
 				</div>
 
