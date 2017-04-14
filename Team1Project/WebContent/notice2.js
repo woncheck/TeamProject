@@ -1,0 +1,1 @@
+$(document).ready(function(){var e="open";$(document).on("click",".invest_item",function(){var n=$(this);n.hasClass(e)?n.removeClass(e):n.addClass(e),n.find(".text").slideToggle(300)})});

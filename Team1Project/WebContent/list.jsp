@@ -39,49 +39,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>cafe</title>
+<title>list</title>
 <style>
-.list {
-	float: left;
-	/* border: 2px solid red; .group2 랑 둘중에 하나 적용시키기*/
-	/* margin-left: 300px; */
-}
-
-body {
-	background-color: #fff;
-}
-
-.img {
-	width: 250px;
-	height: 250px;
-	margin-right: 2px;
-	margin-bottom: 30px;
-	float: left;
-}
-
-.pg-main {
-	margin-top: 60px;
-}
-
-
-
-header, h1 {
-	font-size: 100%;
-}
-
-
-h2 {
-	color: #ff4848;
-}
-
-#fotter {
-	bottom:0px;
-	 
-	width: 100%;
-	height: 15px;
-	margin-bottom: 3px;
-	background-color: #3e3e3e;
-}
 
 /* body_top css */
 .body_top .menu2 a.cafe {
@@ -211,6 +170,50 @@ h2 {
 	width: 68%;
 	height: 50px;
 }
+
+.list {
+	float: left;
+	/* border: 2px solid red; .group2 랑 둘중에 하나 적용시키기*/
+	/* margin-left: 300px; */
+}
+
+body {
+	background-color: #fff;
+}
+
+.img {
+	width: 250px;
+	height: 250px;
+	margin-right: 2px;
+	margin-bottom: 30px;
+	float: left;
+}
+
+.pg-main {
+	margin-top: 60px;
+}
+
+
+
+header, h1 {
+	font-size: 100%;
+}
+
+
+h2 {
+	color: #ff4848;
+}
+
+#fotter {
+	bottom:0px;
+	 
+	width: 100%;
+	height: 15px;
+	margin-bottom: 3px;
+	background-color: #3e3e3e;
+}
+
+
 .txt{
 	color:#0ea1dd;
 	width: 290px;
@@ -254,11 +257,12 @@ border: 1px solid #02b417;
 
 }
 
+/*하단 영역 */
 .footer{
 text-align: left;
 position:  relative;
 background-color: white;
-margin: 0;
+margin-left: 100px;
 padding: 0;
 color: #9b9b9b;
 }
@@ -326,9 +330,6 @@ color: #9b9b9b;
 	right:200px;
 	top: 0px;
 }
-span{
-	solid
-}
 
 </style>
 </head>
@@ -392,7 +393,6 @@ span{
 					<script
 						src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 					<script src="index.js"></script>
-
 				</div>
 			</div>
 		</div>
@@ -516,7 +516,7 @@ span{
 	</center>
 	<div class="footer">
 		<div class="inner">
-			<a href="sul.jsp" class="btn-mp">SIST녀석들</a>
+			<a href="" class="btn-mp">SIST녀석들</a>
 			<p class="subtitle">Eat, Share, Be Happy.</p>
 	
 			<div class="links-external">
@@ -537,7 +537,7 @@ span{
 						</a>
 					</li>
 					<li>
-						<a href="" class="list_a">
+						<a href="notice.jsp" class="list_a">
 						공지사항
 						</a>
 					</li>
@@ -549,22 +549,22 @@ span{
 				</ul>
 				<ul class="list-links">
 					<li>
-						<a href="/company" class="list_a">
-						회사소개
+						<a href="company.html" class="list_a">
+						SIST녀석들 소개
 						</a>
 					</li>
 					<li>
-						<a href="" class="list_a">
+						<a href="user_contact.html" class="list_a">
 					이용약관
 						</a>
 					</li>
 					<li>
-						<a href="" class="list_a">
-					개인정도 이용 약관
+						<a href="private_info.html" class="list_a">
+					개인정보 이용 약관
 						</a>
 					</li>
 					<li>
-						<a href="" class="list_a">
+						<a href="notice.jsp" class="list_a">
 						공지사항
 						</a>
 					</li>
@@ -575,7 +575,7 @@ span{
 					</li>
 				</ul>
 			</div>
-			<p class="foot_image"><a href="bob.jsp;"><img src="images/main/foot.png" ></a></p>
+			<p class="foot_image"><a href=""><img src="images/main/foot.png" ></a></p>
 			<div class="foot_foot">
 	      		<div class="foot_foot_wrap">
 	      			쌍용강북교육센터(국비지원 무료교육, JAVA, DB, Spring등 IT교육 전문기관, 취업연계교육 진행)		주소 : 서울특별시 마포구 백범로 18		전화번호 : 02-336-8546

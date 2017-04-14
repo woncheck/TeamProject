@@ -35,16 +35,16 @@ a{text-decoration:none; outline:none; select-dummy:expression(this.hideFocus=tru
 
 @CHARSET "EUC-KR";
 
-#copyright{ width:100%; min-height:50px; padding:5px 0 0 0; line-height:50px; background-color:#2d2d2d; text-align:center; text-transform:uppercase; font-size:10px; color:#b7b7b7; font-family: Arial, Helvetica, sans-serif; }
+#copyright{ width:100%; min-height:50px; padding:5px 0 0 0; line-height:50px; background-color:white; text-align:center; text-transform:uppercase; font-size:17px; color:black; font-family: Arial, Helvetica, sans-serif; }
 #copoyright b{ color:#fff;}
 
-#main{ background:url(images/main/bg_i_11.jpg) no-repeat; 
+#main{ background:url(images/main/main_body.jpg) no-repeat; 
 position: fixed; height:100%; width: 100%; z-index:1;
 animation: imageAnimation 8s linear infinite 0s;
 animation-iteration-count:1;
 } 
 #main_wrap{ max-width:1500px; margin:0 auto; width:100%; min-height:850px;}
-#main_top{ width:100%; height:470px; background:url(images/main/gogimatcha_topBg.jpg) center no-repeat;}
+#main_top{ width:100%; height:470px; background:url(images/main/main_top.jpg) center no-repeat;}
 .main_logo{ position:absolute; left:50%; top:0px; margin-left:-360px; width:720px; height:160px; z-index:5;}
 .main_logo img{ width:100%; height:100%;}
 #main_cont{ width:993px; padding-right:1px; height:0; margin:0 auto; position:relative;}
